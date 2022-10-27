@@ -9,28 +9,34 @@
 <body>
 <div class="maincontainer">
 <div class="facelogin">
-	<div class="animcon" id="animcon">
-		<img id="hands" src="https://media0.giphy.com/media/ky9oo3jXqHQdUB8L4B/200w.gif"/>
-	</div>
-	<div class="formcon">
-	<form>
-        <div class="tama">
-		<input type="email"  name="email"  onclick="openeye();" placeholder="Email" autocomplete="off"/>
-		<br/>
-		<br/>
-		<input type="password" id="myInput"  onclick="closeye();" name="pwd" placeholder="Password" /> 
-        </div>
-        <input type="checkbox" onclick="myFunction()">Show Password
-		<br/>
-		<br/>
-
-       
-		<input type="submit" name="" class="sbutton" value="L O G I N" />
-	</form>
-	</div>
 		
 </div>
+
+<div class="animcon" id="animcon">
+    <img id="hands" src="https://media0.giphy.com/media/ky9oo3jXqHQdUB8L4B/200w.gif"/>
 </div>
-<script type="text/javascript" src="script.js"></script>
+<div class="formcon ">
+<form action="#">
+    <div class="tama">
+    <input type="email"  name="email" id="email"  onclick="openeye();" placeholder="Email" autocomplete="off"/>
+    <br/>
+    <br/>
+    </div>
+    <div class="tama" >
+    <input type="password" id="password"  onclick="closeye();" name="password" placeholder="Password" /> 
+    </div>
+    <input type="checkbox" onclick="myFunction();">Show Password
+    <br/>
+    <br/>
+
+   
+    <input type="submit" name="" id="submit"  class="stop" value="L O G I N" />
+</form>
+</div>
+
+
+
+</div>
+<script  src="script.js"></script>
 </body>
 </html>

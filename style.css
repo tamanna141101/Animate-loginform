@@ -22,14 +22,15 @@ body
 	flex-direction: column;
 	background-color: white;
 	border-radius: 40px;
+	
 }
 .animcon
 {
 	background-color: white;
-
+	position: absolute;
 	overflow: hidden;
 	/*overflow hidden because to keep the hand image hidden below*/
-	margin-top:20px;
+	margin-bottom:400px;
 	height: 170px;
 	width: 170px;
 	border-radius: 50%;
@@ -46,6 +47,7 @@ body
 }
 .animcon img
 {
+
 	margin-top:110%;
 	height: 170px;
 	width: 170px;
@@ -55,6 +57,7 @@ body
 .formcon
 {
 	margin-top: 38px;
+	position: absolute;
 }
  .tama input
 {
@@ -77,15 +80,17 @@ body
 	text-indent: 15px;
 }
 
-
-.sbutton
-{
-	text-indent: 0px;
+/* #hands {
+	margin-top: 0%;
+  } */
+form input[type="submit"]{
+	
 	height: 40px;
-	width: 300px;
+	width: 50%;
 	margin-top: 10px;
 	background-color: #1b8c1b66;
-	transition: "2s";
+	
+
 	border: none;
 	color: white;
 	font-weight: bolder;
@@ -93,10 +98,20 @@ body
 	outline: none;
 
 }
-.sbutton:hover
+form input[type="submit"]:hover
 {
 	color: #5a5449;
 	cursor: pointer;
 }
+
+.stop {
+	transition: .1s;
+}
+
+.move{
+	transform:translateX(300%);
+	
+}
+
 
 
