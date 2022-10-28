@@ -86,11 +86,11 @@ body
 form input[type="submit"]{
 	
 	height: 40px;
-	width: 50%;
+	width: 30%;
 	margin-top: 10px;
-	background-color: #1b8c1b66;
+	background-color: #4872c066;
 	
-
+	border-radius: 15px;
 	border: none;
 	color: white;
 	font-weight: bolder;
@@ -100,16 +100,19 @@ form input[type="submit"]{
 }
 form input[type="submit"]:hover
 {
-	color: #5a5449;
+	color: #020202;
 	cursor: pointer;
+
 }
 
 .stop {
-	transition: .1s;
+	transition: .3s;
+	
 }
 
 .move{
-	transform:translateX(300%);
+
+transform: translateX(240%);
 	
 }
 

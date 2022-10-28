@@ -13,10 +13,10 @@ function closeye()
 	y.style.backgroundImage="url(https://www.emoji.com/wp-content/uploads/filebase/3d%20icons/emoji-3d%20icons-glossy-3d-icons-blond-haired-woman-72dpi-forPersonalUseOnly.gif)";
 	
   if (z.type === "text") {
-    x.style.marginTop="0%";
+    x.style.marginTop="110%";
    
   }else{
-    x.style.marginTop="110%";
+    x.style.marginTop="0%";
   }
 }
 function openeye()
@@ -28,12 +28,12 @@ function openeye()
 function myFunction() {
    
     if (z.type === "password") {
-      x.style.marginTop="0%";
+      x.style.marginTop="110%";
       z.type = "text";
      
      
     } else {
-      x.style.marginTop="110%";
+      x.style.marginTop="0%";
       z.type = "password";
      
      
@@ -53,6 +53,6 @@ if(!validate){
  
 }else{ 
   button.target.classList.add("stop");
-  v.style.background="red"
+  v.style.background="green"
 }
 })
